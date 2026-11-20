@@ -48,6 +48,19 @@ java -jar morphe-cli.jar patch \
 ## 収録パッチ
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/Himare4092/piko-newx-japanese/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+<details open>
+<summary>📦 NewX&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**Package name:** `com.twitter.android`
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Japanese translation for Piko NewX](#japanese-translation-for-piko-newx) | Translates Piko NewX Settings (including Translator settings) into Japanese. Apply alongside Piko's NewX patches. |  |
+
+</details>
+
 <!-- PATCHES_END -->
 
 ---
