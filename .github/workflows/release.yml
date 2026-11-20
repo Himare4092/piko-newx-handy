@@ -34,6 +34,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Verify Gradle build & tests
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./gradlew :patches:test :patches:buildAndroid --no-daemon --stacktrace
+
       # Semantic release runs its own Gradle build command.
       # Only dev and main branch will generate a release as specified by .releaserc
       - name: Release
