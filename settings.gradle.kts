@@ -1,4 +1,4 @@
-rootProject.name = "piko-newx-japanese-patches"
+rootProject.name = "piko-newx-handy"
 
 pluginManagement {
     repositories {

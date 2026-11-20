@@ -2,12 +2,12 @@ group = "app.pikoja"
 
 patches {
     about {
-        name = "Piko NewX Japanese Patches"
-        description = "Morphe patch that translates Piko NewX Settings into Japanese"
-        source = "https://github.com/Himare4092/piko-newx-japanese"
+        name = "Piko NewX Handy"
+        description = "Morphe patches to make Piko (NewX) handier"
+        source = "https://github.com/Himare4092/piko-newx-handy"
         author = "Himare4092"
         contact = "na"
-        website = "https://github.com/Himare4092/piko-newx-japanese"
+        website = "https://github.com/Himare4092/piko-newx-handy"
         license = "GNU General Public License v3.0"
     }
 }
