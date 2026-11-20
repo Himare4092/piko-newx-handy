@@ -1,0 +1,31 @@
+### Morphe
+morphe-signing.key
+
+### Java / Kotlin
+*.class
+*.log
+hs_err_pid*
+
+### Gradle
+.gradle/
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+### IDEs & Local Config
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/
+local.properties
+
+### Node
+node_modules/
+
+### Test / Temporary APKs
+*.apk
+*.apkm
