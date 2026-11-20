@@ -78,14 +78,6 @@ $env:ANDROID_HOME = "$env:LOCALAPPDATA\Android\Sdk"
 
 ---
 
-## GitHub で公開する場合
-
-1. [patches/build.gradle.kts](patches/build.gradle.kts) の `source` / `website` をご自身のリポジトリ URL に変更します。
-2. [README.md](README.md) の `Add to Morphe` リンク（`xyz-user/xyz-patches`）をご自身の `owner/repo` に変更します（CI リリース実行時は `.github/scripts/generate_patches_readme.py` により自動置換されます）。
-3. [Conventional Commits](https://www.conventionalcommits.org/) 形式（例: `feat: ...`, `fix: ...`）で `main` または `dev` ブランチへプッシュすると、`.github/workflows/release.yml` によって自動的にビルド・`.mpp` 添付リリース・`patches-bundle.json` / `patches-list.json` / `README.md` の更新が行われます。
-
----
-
 ## ライセンス
 
 [GNU General Public License v3.0](LICENSE)
